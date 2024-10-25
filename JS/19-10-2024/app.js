@@ -13,7 +13,7 @@
 
 
 // var sentence = 'An Apple a dAY KEEP DOCTOR AWAY Apple'
-// var indexOfApple = sentence.lastIndexOf('Saylani')
+// var indexOfApple = sentence.lastIndexOf('Apple')
 // alert(indexOfApple)
 
 
@@ -24,16 +24,16 @@
 // var updSentence  = sentence.replace('Apple' , 'Mango')    ///just replace the first occurence
 // console.log(updSentence)
 
-// var num1 = 2.2
-// alert(Math.ceil(num1))  // 2
+// var num1 = 2.5
+// alert(Math.round(num1))  // 2
 
 
 
 
-// var randomNum  = Math.round(Math.random() * 6)
+var randomNum  = Math.round(Math.random() * 6)
 
-// var randomNum  = Math.random() * 6
-// console.log(randomNum.toFixed(3))
+var randomNum  = Math.random() * 6
+console.log(randomNum.toFixed(3))
 
 
 
@@ -60,6 +60,6 @@
 
 
 
-function GreetUser() {
-    alert('Hello User')
-}
+// function GreetUser() {
+//     alert('Hello User')
+// }
