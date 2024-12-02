@@ -409,6 +409,7 @@ function selectProduct() {
 }
 
 var productImage = document.getElementById("productImage");
+
 function searchProduct() {
   for (var keys in watches[selectedBrand]) {
     if (watches[selectedBrand][keys].name === selectedProduct) {
